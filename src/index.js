@@ -48,7 +48,7 @@ server.on("listening", () => {
 
   // by default we are listening on 0.0.0.0 (every interface)
   // we just need to list a few
-  console.log("Listening on:");
+  console.log("Listening AT:");
   console.log(`\thttp://localhost:${address.port}`);
   console.log(`\thttp://${hostname()}:${address.port}`);
   console.log(
